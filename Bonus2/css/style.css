@@ -1,0 +1,40 @@
+/* Variabili */
+:root {
+    --color--bg: #083B4C;
+    --color-box-number: #1389B2;
+    --color-box-green: #0CD6A1;
+    --color-box-yellow: #FFD166;
+    --color-box-red: #F0466F;
+
+
+}
+
+.box {
+    width: 100px;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-box-number);
+    margin: 1rem;
+}
+
+.green {
+
+    background-color: var(--color-box-green);
+
+}
+
+.yellow {
+    background-color: var(--color-box-yellow);
+}
+
+.red {
+    background-color: var(--color-box-red);
+
+
+}
+
+body {
+    background-color: var(--color--bg) !important;
+}
