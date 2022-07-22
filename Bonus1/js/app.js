@@ -21,10 +21,18 @@ for (let i = 0; i < 100; i++ ) {
 
     } 
 
-    
-
     console.log(number);
 
+    const mainElement = document.querySelector('.row');
+
+
+    const divElement = document.createElement('div');
+    divElement.append(number);
+    divElement.classList.add('container');
+
+    console.log(divElement);
+
+    mainElement.append(divElement);
     
 
 
